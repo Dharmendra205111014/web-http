@@ -1,0 +1,26 @@
+.buttons {
+    display: flex;
+}
+
+.buttons .button {
+    margin: 10px;
+    display: inline-flex;
+}
+
+.button {
+    padding: 10px;
+    border: 1px solid;
+    font-size: 12px;
+    border-radius: 5px;
+    background: whitesmoke;
+    border-color: #b3afaf;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #cac1c1;
+}
+
+.input, .button {
+    outline: none;
+}
